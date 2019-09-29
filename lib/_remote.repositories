@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Sep 27 19:28:54 COT 2019
+mongo-java-driver-3.4.2.pom>central=
+mongo-java-driver-3.4.2.pom>=
+mongo-java-driver-3.4.2.jar>central=

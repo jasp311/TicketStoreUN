@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.9998915527394" prefWidth="269.999977929685" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.mycompany.ticketstore.controllers.ArtistDescriptionController">
+  <children>
+    <Pane layoutX="14.0" layoutY="55.0" prefHeight="317.0" prefWidth="241.99990000000253">
+      <children>
+        <TextArea fx:id="description" disable="false" editable="true" layoutX="0.0" layoutY="0.0" prefHeight="81.0" prefWidth="242.00009999999747" wrapText="true" />
+        <ListView fx:id="list_concerts" layoutX="0.0" layoutY="94.0" onMouseClicked="#handleConcertClick" prefHeight="183.0" prefWidth="242.0" />
+        <Button fx:id="backbtn" layoutX="0.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="27.9998779296875" prefWidth="71.00009999999747" text="&lt; Back" textFill="WHITE">
+          <stylesheets>
+            <URL value="@../styles/Styles.css" />
+          </stylesheets>
+        </Button>
+        <Button fx:id="updatebtn" layoutX="86.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleUpdate" prefHeight="27.9998779296875" prefWidth="71.00009999999747" style="-fx-background-color:#11bf5d;" text="Update" textFill="WHITE">
+          <stylesheets>
+            <URL value="@../styles/Styles.css" />
+          </stylesheets>
+        </Button>
+        <Button fx:id="erasebtn" layoutX="171.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleErase" prefHeight="27.9998779296875" prefWidth="71.00009999999747" style="-fx-background-color:red;" text="Erase" textFill="WHITE">
+          <stylesheets>
+            <URL value="@../styles/Styles.css" />
+          </stylesheets>
+        </Button>
+        <Button fx:id="savebtn" layoutX="86.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="27.9998779296875" prefWidth="71.00009999999747" style="-fx-background-color:#11bf5d;" text="Save" textFill="WHITE">
+          <stylesheets>
+            <URL value="@../styles/Styles.css" />
+          </stylesheets>
+        </Button>
+      </children>
+    </Pane>
+    <Pane layoutX="1.0" layoutY="0.0" prefHeight="46.0" prefWidth="269.0" style="-fx-background-color:rgb(61, 72, 85);">
+      <children>
+        <TextField fx:id="artistname" layoutX="14.0" layoutY="14.0" prefWidth="200.0" style="-fx-background-color:rgb(61, 72, 85);&#10;-fx-text-fill:white;&#10;" text="asdasd" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

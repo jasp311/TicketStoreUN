@@ -1,0 +1,1 @@
+En caso de querer usar la base de datos dada en la carpeta data, el usuario es root y el password es root
